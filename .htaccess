@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|js|css|fonts|awesome|robots\.txt)
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+#php_value post_max_size 52428800 # 50MB
+#php_value upload_max_filesize 52428800 # 50MB
+#php_value max_execution_time 900 # 5 minutes
+
+
