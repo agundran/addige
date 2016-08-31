@@ -1,0 +1,16 @@
+#-----configuration file for FileConverter2.Exe-----
+# # IN FIRST POSITION MAKES THIS LINE A COMMENT
+#(USE _ FOR SPACES IN PATHS ETC.)
+#
+#-----File Location Settings:-----
+#DEBUG_LOGGING= (Y, N)
+DEBUG_LOGGING=Y
+#
+#----- Information Settings:-----
+COMPANY_NAME=Ad Systems
+COMPANY_ADDRESS_1=Suite 150
+COMPANY_ADDRESS_2=6170s 380w
+COMPANY_CITY=Murray
+COMPANY_STATE_ZIP=UTAH 84107
+COMPANY_COMPUTER_SYSTEM=Addige.NET
+#
